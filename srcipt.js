@@ -9,6 +9,15 @@ var day = weeks[d.getDay()];
 var date = d.getDate();
 var months = month[d.getMonth()];
 var year = d.getFullYear();
+var session = document.getElementById("session")
+if(hrs >= 12){
+    session.innerHTML = "PM"
+
+}
+else{
+    session.innerHTML = "AM"
+
+}
 
 var hrotation = 30*hrs + mins/2;
 var mrotation = 6*mins;
@@ -22,14 +31,12 @@ document.getElementById("seconds").style.transform = `rotate(${srotation}deg)`;
 
 
 
-var session = document.getElementById("session")
 
 
 
 
  if(hrs > 12){
     hrs =  hrs - 12;
-    session.innerHTML = "PM"
 }
  
 
