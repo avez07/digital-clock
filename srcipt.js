@@ -19,6 +19,7 @@ else{
 
 }
 
+
 var hrotation = 30*hrs + mins/2;
 var mrotation = 6*mins;
 var srotation = 6*sec;
@@ -37,6 +38,9 @@ document.getElementById("seconds").style.transform = `rotate(${srotation}deg)`;
 
  if(hrs > 12){
     hrs =  hrs - 12;
+}
+if(hrs == 0){
+    hrs  = '12';
 }
  
 
