@@ -1,7 +1,7 @@
 function display(){
     var d = new Date();
 const weeks = ["SUNDAY" , "MONDAY" , "TUSDAY" , "WENESDAY" , "THURSDAY" , "FRIDAY" , "SATURDAY"]
-const month = ["Jan" , "Feb" , "Mar" , "Apr" , "May" , "Jun" , "July" , "Aug" , "SepJ" , "Oct" , "Nov" , "Dec" , ]
+const month = ["Jan" , "Feb" , "Mar" , "Apr" , "May" , "Jun" , "July" , "Aug" , "Sep" , "Oct" , "Nov" , "Dec" , ]
 var hrs = d.getHours();
 var mins = d.getMinutes();
 var sec = d.getSeconds();
